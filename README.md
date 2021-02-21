@@ -27,9 +27,13 @@ Use a CNN (convolutional neural network) for classification
 
 Some pictures showing what the framework can do:
 
-Text decection:
+Text detection:
 
 <img width="60%" src ="https://i.imgur.com/TeyntnB.png"/><br>
+
+Applying OCR (using Tesseract) to the detected text and turning the chat into a JSON file:
+
+<img width="60%" src ="https://i.imgur.com/bCNqVxb.png"/><br>
 
 
 ## contact
