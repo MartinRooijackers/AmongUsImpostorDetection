@@ -33,7 +33,7 @@ Text detection:
 
 Applying OCR (using Tesseract) to the detected text and turning the chat into a JSON file:
 
-<img size="40%" src ="https://i.imgur.com/bCNqVxb.png"/><br>
+<img width="20%" src ="https://i.imgur.com/bCNqVxb.png"/><br>
 
 
 ## contact
