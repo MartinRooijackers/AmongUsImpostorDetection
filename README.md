@@ -29,7 +29,7 @@ Some pictures showing what the framework can do:
 
 Text decection:
 
-<img width="60%" src ="blob:https://imgur.com/6d61a00b-57b9-4050-804e-57f4346b1755"/><br>
+<img width="60%" src ="https://i.imgur.com/TeyntnB.png"/><br>
 
 
 ## contact
