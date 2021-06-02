@@ -23,6 +23,38 @@ For the machine vision:
 Use a CNN (convolutional neural network) for classification
 
 
+
+
+## setup:
+
+For this project we used Pycharm for coding, but any python IDE will work as long as you can pip the libraries needed.
+
+You will need the .pb model for the EAST text detection:
+
+https://www.dropbox.com/s/r2ingd0l3zt8hxs/frozen_east_text_detection.tar.gz?dl=1
+
+You will also need tesseract.
+The (compiled) downloads for tesseract (windows/linux) can be found here:
+
+https://digi.bib.uni-mannheim.de/tesseract/
+
+5.0 was used, but any version 4 version should work as well (since no new 5.0 features are used)
+
+### setting variables
+
+After those two files are downloaded (and installed in the case of tessearct), you will need to set 3 variables in the framework.python
+
+
+**Tesseract_location** :  path to the install location of tesseract. Make sure to include the / at the end as well
+
+**model_detector** : Path to a .pb file contains trained detector network:
+
+
+**video_location** : folder which contains all the videos you want to analyze. Make sure to include the / at the end as well
+
+Once all those are set propperly, put the videos in your video location folder. When you run the framework.py it should now be analyzing the videos there.
+
+
 ## Framework in action
 
 Some pictures showing what the framework can do:
